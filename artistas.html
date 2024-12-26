@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .image-container {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .button-container img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s ease;
+        }
+
+        .button-container a:hover img {
+            transform: scale(1.2);
+        }
+
+        .button-container p {
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background-color: #ffffff;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #cccccc;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-button">Voltar para Home</a>
+
+    <div class="image-container">
+        <img src="images/artistas.jpg" alt="Artistas">
+    </div>
+
+    <div class="button-container">
+        <a href="https://www.instagram.com/eliteblackpink.oficial/" target="_blank">
+            <img src="images/instagram.png" alt="ELITE BLACKPINK">
+            <p>ELITE BLACKPINK</p>
+        </a>
+        <a href="https://www.instagram.com/coverluisasonza/" target="_blank">
+            <img src="images/instagram.png" alt="COVER LUISA SONZA">
+            <p>COVER LUISA SONZA</p>
+        </a>
+        <a href="https://www.instagram.com/cvrarigbr/" target="_blank">
+            <img src="images/instagram.png" alt="COVER ARIANA GRANDE">
+            <p>COVER ARIANA GRANDE</p>
+        </a>
+        <a href="https://www.instagram.com/zioncrew_/" target="_blank">
+            <img src="images/instagram.png" alt="Z!ON CREW">
+            <p>Z!ON CREW</p>
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
